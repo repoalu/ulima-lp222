@@ -19,11 +19,3 @@ if __name__ == "__main__":
     p1 = Point(0, 0)
     p2 = Point(3, 4)
     print(Point.get_distance(p1, p2))
-
-    polygon = [Point(0, 0), Point(3, 4), Point(3, 0)]
-    sum = 0
-    for i in range(len(polygon)):
-        p1 = polygon[i]
-        p2 = polygon[i % len(polygon) - 1]
-        sum += Point.get_distance(p1, p2)
-    print(sum)

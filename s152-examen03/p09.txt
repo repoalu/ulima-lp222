@@ -1,0 +1,14 @@
+Para realizar una implementacion a nivel de clase, tenemos que eliminar
+self como parametro de entrada y para este caso deberia recibirse 2
+instancias de la clase rectangulo.
+Con ello la implementacion podria quedar de la siguiente forma:
+
+    def compare(rectangle1, rectangle2):        
+        area1 = rectangle2.get_area()
+        area2 = rectangle1.get_area()
+        if area1 > area2:
+            return 1
+        elif area1 < area2:
+            return 2
+        else:
+            return 3

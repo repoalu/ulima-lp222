@@ -1,0 +1,6 @@
+A)  Privada (Ejemplo: self.__customer_name)
+B)  Si se coloca como publica, por ejemplo, es posible que se modifique
+    directamente la cantidad o el monto total, lo cual puede hacer que
+    el objeto quede en un estado inconsistente. Por ejemplo, puedo 
+    colocar la cantidad de productos totales en cero, lo cual no guardaria
+    relacion con lo almacenado a nivel de costo total.

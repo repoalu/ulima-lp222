@@ -1,0 +1,11 @@
+Para Fib(4):
+    No es 1 ni 2 -> Fib(3) + Fib(2)
+    - Fib(3):
+        No es ni 1 ni 2 -> Fib(2) + Fib(1)
+        - Fib(2): Caso Base -> Rpta: 1
+        - Fib(1): Caso Base -> Rpta: 1
+        Por lo tanto: Fib(3) = 1 + 1 = 2 
+
+    - Fib(2): Caso Base -> Rpta: 1
+
+    Por lo tanto Fib(4) = 2 + 1 = 3

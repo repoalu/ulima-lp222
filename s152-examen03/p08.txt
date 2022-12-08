@@ -1,0 +1,6 @@
+A)  __str__: Representacion como cadena. La usamos cuando damos como parametro
+    de "print" una instancia de la clase. La clase rectangulo tiene una 
+    definicion de este metodo.
+B)  __init__: Constructor. Crea una nueva instancia de la clase. Tambien se
+    ha implementado en la clase Rectangulo, de forma que reciba el largo y 
+    el ancho.

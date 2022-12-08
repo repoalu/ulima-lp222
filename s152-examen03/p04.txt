@@ -1,0 +1,7 @@
+A)  Se usan funciones de alto orden. Map, por ejemplo, es una funcion que
+    recibe otra funcion como entrada (alto orden)
+
+B)  Se puede utilizar una funcion lambda reemplazar a get-converted-list:    
+    ((lambda (L) (map fibonacci L)) list1)
+    La funcion implementada llama directamente a map, no es necesaria otra
+    funcion.
